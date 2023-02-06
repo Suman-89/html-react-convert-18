@@ -1,0 +1,45 @@
+// Create React App
+npx create-react-app app-name
+
+// To start any framework or Library
+1> Check node_modules
+
+2> Always run --> npm install
+
+3> Start react--> npm start
+
+
+
+
+
+
+
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Suman-89/School_website.git
+git push -u origin main
+
+create new branch
+git checkout -b branch name
+
+
+ 
+git status
+git add .
+git commit -m "message"
+git push -u origin branch name
+
+
+switch one to another branch
+git checkout branch name
+
+// Clone Git Repository
+git clone git_url(https)
+
+
+Merge one to another branch
+1. First go to the branch to which the another one will be merged. (git checkout branch name)
+2. git merge branch name.
+3. git push must be done after doing merge.
