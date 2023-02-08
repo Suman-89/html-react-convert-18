@@ -3,6 +3,7 @@ import './App.css';
 import { Switch, Route } from 'react-router-dom';
 import MainPage from './pages/screens/homePage/MainPage';
 import AboutUs from './pages/screens/aboutUs/AboutUs';
+import OurService from './pages/screens/OurService/OurService';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Switch>
         <Route exact path={'/'} component={MainPage} />
         <Route exact path={'/aboutus'} component={AboutUs} />
+        <Route exact path={'/ourservice'} component={OurService} />
       </Switch>
     </div>
   );
