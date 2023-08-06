@@ -21,7 +21,8 @@ const Banner = () => {
                   <a href="one-page.html">One-page version</a> is available as
                   of 2021 February.
                 </p>
-                <a href="contact.html" class="filled-button">
+                {/* <a href="contact.html" class="filled-button"> */}
+                <a href="/contactus" class="filled-button">
                   contact us
                 </a>
               </div>

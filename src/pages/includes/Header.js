@@ -85,7 +85,7 @@ const Header = () => {
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="contact.html">
+                  <a class="nav-link" href="/contactus">
                     Contact Us
                   </a>
                 </li>
